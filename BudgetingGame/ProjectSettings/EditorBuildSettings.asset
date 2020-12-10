@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/WelcomeBudgeting.unity
+    guid: 31b6ce3c08c734a5b80ea4b3728eeb50
+  - enabled: 1
     path: Assets/Scenes/Aisle1.unity
     guid: dde583dd32c234759a211eb6f8a414b1
+  - enabled: 1
+    path: Assets/Scenes/Aisle2.unity
+    guid: f49fa5ffcc4d94f25a5f2fe198309e52
+  - enabled: 1
+    path: Assets/Scenes/ResultsBudgeting.unity
+    guid: e2bf33cc7d44a46b1b849034597d7ec8
   m_configObjects: {}
