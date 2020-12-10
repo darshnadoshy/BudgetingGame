@@ -7,8 +7,9 @@ public class EndSceneScript : MonoBehaviour
 {
    public float aisle1, aisle2, aisle3, aisle4, aisle5, total;
    public GameObject player;
-   public Text message, totalamt;
-   public Text a1, a2, a3, a4, a5;
+   public Text message; 
+   //public Text totalamt;
+   //public Text a1, a2, a3, a4, a5;
 
    public void Start()
    {
@@ -33,20 +34,21 @@ public class EndSceneScript : MonoBehaviour
    public void Update(){
        
        aisle1 = player.GetComponent<Aisle1Script>().GetAisle1Total();
-       a1.text = aisle1.ToString();
+       //a1.text = aisle1.ToString();
        aisle2 = player.GetComponent<Aisle2Script>().GetAisle2Total();
-       a2.text = aisle2.ToString();
+       //a2.text = aisle2.ToString();
        aisle3 = player.GetComponent<Aisle3Script>().GetAisle3Total();
-       a3.text = aisle3.ToString();
+       //a3.text = aisle3.ToString();
        aisle4 = player.GetComponent<Aisle4Script>().GetAisle4Total();
-       a4.text = aisle4.ToString();
+       //a4.text = aisle4.ToString();
        aisle5 = player.GetComponent<Aisle5Script>().GetAisle5Total();
-       a5.text = aisle5.ToString();
+       //a5.text = aisle5.ToString();
        total = aisle1 + aisle2 + aisle3 + aisle4 + aisle5;
 
-       totalamt.text = total.ToString();
+       //totalamt.text = total.ToString();
 
-       if (total > 0 && total <= 20)
+       //if (total > 0 && total <= 20)
+       if (total <= 20)
        {
            message.text = "Congratulations!\n\nYou’ve mastered the art of budgeting!";
        }

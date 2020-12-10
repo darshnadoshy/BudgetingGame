@@ -500,12 +500,6 @@ MonoBehaviour:
   total: 0
   player: {fileID: 1601252734}
   message: {fileID: 1297250135}
-  totalamt: {fileID: 1139881388}
-  a1: {fileID: 747471028}
-  a2: {fileID: 776656624}
-  a3: {fileID: 672345799}
-  a4: {fileID: 1171983837}
-  a5: {fileID: 748009687}
 --- !u!114 &396860346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -731,7 +725,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &672345798
 RectTransform:
   m_ObjectHideFlags: 0
@@ -809,7 +803,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &747471027
 RectTransform:
   m_ObjectHideFlags: 0
@@ -887,7 +881,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &748009686
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1048,7 +1042,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &776656623
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1308,7 +1302,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 16.91 Moola
 --- !u!222 &1139881389
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1412,7 +1406,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1171983836
 RectTransform:
   m_ObjectHideFlags: 0

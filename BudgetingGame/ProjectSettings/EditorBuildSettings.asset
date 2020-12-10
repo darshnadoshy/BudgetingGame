@@ -15,6 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Aisle2.unity
     guid: f49fa5ffcc4d94f25a5f2fe198309e52
   - enabled: 1
+    path: Assets/Scenes/Aisle3.unity
+    guid: a2388e86c27e34ebbaeac8a1348bc992
+  - enabled: 1
+    path: Assets/Scenes/Aisle4.unity
+    guid: 157acc49469c8471295bb8d824e46b0a
+  - enabled: 1
+    path: Assets/Scenes/Aisle5.unity
+    guid: dc72e56662c5a45d9926e51a5af344ed
+  - enabled: 1
     path: Assets/Scenes/ResultsBudgeting.unity
     guid: e2bf33cc7d44a46b1b849034597d7ec8
   m_configObjects: {}
