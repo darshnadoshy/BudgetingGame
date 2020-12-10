@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Aisle12Script : MonoBehaviour
+public class Aisle2Script : MonoBehaviour
 {
     public float total = 0.0f;
     public void Button1(float value)
