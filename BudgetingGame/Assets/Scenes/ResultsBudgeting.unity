@@ -381,6 +381,9 @@ GameObject:
   - component: {fileID: 396860342}
   - component: {fileID: 396860341}
   - component: {fileID: 396860340}
+  - component: {fileID: 396860345}
+  - component: {fileID: 396860344}
+  - component: {fileID: 396860346}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -473,6 +476,60 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &396860344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396860339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc9f9933c05f41b3a058ef0ecaa662e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aisle1: 0
+  aisle2: 0
+  aisle3: 0
+  aisle4: 0
+  aisle5: 0
+  total: 0
+  player: {fileID: 1601252734}
+  message: {fileID: 1297250135}
+  totalamt: {fileID: 1139881388}
+--- !u!114 &396860345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396860339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc9f9933c05f41b3a058ef0ecaa662e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aisle1: 0
+  aisle2: 0
+  aisle3: 0
+  aisle4: 0
+  aisle5: 0
+  total: 0
+  player: {fileID: 0}
+  message: {fileID: 0}
+  totalamt: {fileID: 0}
+--- !u!114 &396860346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396860339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f60f7c22450c4902bad064a31a0291b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &498922250
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,7 +611,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 498922253}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 396860346}
+        m_MethodName: Return
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &498922253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -822,7 +890,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 888584058}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 396860346}
+        m_MethodName: Return
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &888584058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -929,7 +1008,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: $14.87
+  m_Text: 
 --- !u!222 &1139881389
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1085,8 +1164,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Congratualtions! You managed to spend within the limit. You've learned
-    the art of budgeting!
+  m_Text: 
 --- !u!222 &1297250136
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1095,6 +1173,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297250133}
   m_CullTransparentMesh: 0
+--- !u!1 &1601252734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1601252735}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1601252735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601252734}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1720528944
 GameObject:
   m_ObjectHideFlags: 0
