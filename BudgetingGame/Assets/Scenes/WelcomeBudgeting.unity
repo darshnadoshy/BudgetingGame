@@ -1078,7 +1078,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 921051524}
-        m_MethodName: BeginGame
+        m_MethodName: SceneChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
