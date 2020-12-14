@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Aisle4Script : MonoBehaviour
 {
-    public float total = 0.0f;
+    public static float total = 0.0f;
     public void Button1(float value)
     {
         total += value;
